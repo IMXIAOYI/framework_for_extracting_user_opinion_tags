@@ -8,7 +8,7 @@ dependency_parser = StanfordDependencyParser(path_to_jar=path_to_jar, path_to_mo
 ###读入yelp_testing2.txt, 把每个评论根据，和. 分成一个个字符串，把结果打印出来 同时保存到列表里，一个循环结束写入文件
 
 
-f = open("yelp_testing2_part9.txt","r")  
+f = open("yelpreviews.txt","r")  
 lines = f.readlines()#读取全部内容  
 f.close()
 
